@@ -2,7 +2,6 @@ import React from "react";
 //import { motion } from "framer-motion";
 //import BannerImage from "../common/drone-1.jpg";
 import Carrusel from "../common/Carrusel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './Home.css'
 
 const Home = () => {
