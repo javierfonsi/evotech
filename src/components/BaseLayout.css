@@ -1,0 +1,56 @@
+:root {
+    --bg-color: hsl(230, 17%, 14%);
+    --bg-card: hsl(228, 28%, 20%);
+    --text-color-white: hsl(0, 0%, 100%);
+    --text-color-gray: hsl(228, 34%, 66%);
+    --border-color-facebook: hsl(208, 92%, 53%);
+    --border-color-twitter: hsl(203, 89%, 53%);
+    --border-color-instagram-1: hsl(37, 97%, 70%);
+    --border-color-instagram-2: hsl(329, 70%, 58%);
+    --border-color-youtube: hsl(348, 97%, 39%);
+    --border-color-bg-1: hsl(210, 78%, 56%);
+    --border-color-bg-2: hsl(146, 68%, 55%);
+    --border-color-up: hsl(163, 72%, 41%);
+    --border-color-down: hsl(356, 69%, 56%);
+    --purple: hsl(260,100,66);
+    --pink: hsl(286,71,66);
+    --white: hsl(0,0,97);
+    --dark: hsl(0,0,12);
+    --red: hsl(3,100,67);
+    --yellow: hsl(41,100,59);
+    --green: hsl(129,68,47);
+    --lightgray: hsl(0,0,79);
+}
+
+.light-mode{
+    --bg-color: hsl(0, 0%, 100%);
+    --bg-card: hsl(227, 47%, 96%);
+    --text-color-gray: hsl(228, 12%, 44%);
+    --text-color-white: hsl(230, 17%, 14%);
+    /*--bg-c: hsl(, %, 0%);*/
+}
+
+.dark {
+    background-color: var(--dark);
+    color: var(--white);
+    transition: all 400ms;
+  
+    a, i, li {
+      color: var(--white);
+      transition: color 400ms;
+    }
+  
+    a:visited {
+      color: var(--white);
+    }
+  
+    footer {
+      color: var(--white);
+    }
+  }
+  
+  .light {
+    background-color: var(--white);
+    color: var(--dark);
+    transition: all 400ms;
+  }
