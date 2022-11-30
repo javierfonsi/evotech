@@ -4,7 +4,6 @@ import React from "react";
 import Carrusel from "../common/Carrusel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './Home.css'
-//import Carrouselmui from "./Carrouselmui";
 
 const Home = () => {
   return (

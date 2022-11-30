@@ -1,7 +1,7 @@
 import React from "react";
+import Carrusel from "../common/Carrusel";
 //import { motion } from "framer-motion";
 //import BannerImage from "../common/drone-2.jpg";
-import Carrouselmui from "../home/Carrouselmui";
 
 const Portfolio = () => {
   return (
@@ -15,7 +15,7 @@ const Portfolio = () => {
     //  Portafolio
     //</motion.div>
     <div>
-      <Carrouselmui/>
+      <Carrusel/>
     </div>
   );
 };
