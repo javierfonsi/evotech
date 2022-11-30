@@ -10,17 +10,17 @@ const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const images = [
   {
-    //label: 'San Francisco – Oakland Bay Bridge, United States',
+    label: 'San Francisco',
     imgPath:
       "https://res.cloudinary.com/dzkp92nfz/image/upload/v1669775635/evotech/home/rbh_1x850_mlh3ck.jpg",
   },
   {
-    //label: 'Bird',
+    label: 'Bird',
     imgPath:
       "https://res.cloudinary.com/dzkp92nfz/image/upload/v1669775635/evotech/home/rbh_2x850_nwxrmp.jpg",
   },
   {
-    //label: 'Bali, Indonesia',
+    label: 'Bali',
     imgPath:
       "https://res.cloudinary.com/dzkp92nfz/image/upload/v1669775635/evotech/home/scanner_h1x850_oa9nzc.jpg",
   },
@@ -54,7 +54,7 @@ function Carrouselmui() {
         axis={theme.direction === "rtl" ? "x-reverse" : "x"}
         index={activeStep}
         onChangeIndex={handleStepChange}
-        enableMouseEvents
+        //enableMouseEvents
       >
         {images.map((step, index) => (
           <div key={step.label}>
@@ -70,9 +70,7 @@ function Carrouselmui() {
                   overflow: "hidden",
                   width: "100%",
                   objectFit: "cover",
-                  //title: 'Nuestro foco principal son actividades des implementación, servicios de planeación y optimización de redes fijas y móviles.'
                 }}
-                backgroundImage={step.imgPath}
                 src={step.imgPath}
                 alt={step.label}
               />

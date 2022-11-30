@@ -4,7 +4,7 @@ import React from "react";
 import Carrusel from "../common/Carrusel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './Home.css'
-import Carrouselmui from "./Carrouselmui";
+//import Carrouselmui from "./Carrouselmui";
 
 const Home = () => {
   return (
@@ -19,7 +19,8 @@ const Home = () => {
     //</motion.div>
   
     <div className="main-carousel">
-      <Carrouselmui/>
+      {/*<Carrouselmui/>*/}
+      <Carrusel/>
     </div>
   
   );

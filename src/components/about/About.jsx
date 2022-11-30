@@ -2,8 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 //import BannerImage from "../common/drone-3.jpg";
 import { Box, Card, CardContent, Typography } from "@mui/material";
-import "./about.css";
-import { Block } from "@mui/icons-material";
 
 const texts = [
   "Somos",
@@ -15,8 +13,6 @@ const texts = [
 const About = () => {
   return (
     <motion.div
-      classsName="home"
-      //style={{ backgroundImage: `url(${BannerImage})`, width: "100%", backgroundPosition: "center", backgroundSize:"cover", backgroundRepeat:"no-repeat"}}
       style={{
         backgroundImage: `url(https://res.cloudinary.com/dzkp92nfz/image/upload/v1669776560/evotech/About_rajmo3.jpg)`,
         width: "100%",
